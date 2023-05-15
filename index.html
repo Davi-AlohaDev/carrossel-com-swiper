@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de imagens</title>
+
+    <!--======== Swiper ========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!--======== CSS ========-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <main class="principal">
+
+      <!-- Slider principal container -->
+      <div class="swiper">
+        <!-- Invólucro necessário adicional -->
+        <div class="swiper-wrapper">
+
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <picture>
+              <source media="(max-width: 700px)" srcset="img/Udyr-p.gif">
+              <img src="img/Udyr-G.gif" alt="">
+            </picture>
+          </div>
+
+          <div class="swiper-slide">
+            <picture>
+            <source media="(max-width: 700px)" srcset="img/kindred-p.png">
+            <img src="img/Kindred-G.png" alt="">
+            </picture>
+          </div>
+
+          <div class="swiper-slide">
+            <picture>
+              <source media="(max-width: 700px)" srcset="img/ww-p.gif">
+              <img src="img/ww-G.gif" alt="">
+            </picture>
+
+        </div>
+
+        </div>
+        <!-- Se precisarmos de paginação -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Se precisarmos de botões de navegação-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+
+    </main>
+
+  <!--======== Script ========-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="JS/script.js"></script>
+</body>
+</html>

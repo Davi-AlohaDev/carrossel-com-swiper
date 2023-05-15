@@ -1,0 +1,20 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.principal{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    color: #fff;
+}
